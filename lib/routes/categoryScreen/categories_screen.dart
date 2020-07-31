@@ -32,9 +32,6 @@ class CategoriesScreen extends StatelessWidget {
             child: body,
             navigationBar: appBar,
           )
-        : Scaffold(
-            body: body,
-            appBar: appBar,
-          );
+        : body;
   }
 }
